@@ -3,17 +3,15 @@
 \usetheme{AIIT0}
 \setbeamertemplate{navigation symbols}{}
 \usefonttheme{professionalfonts}
-
-
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\try}{$\clubsuit$}
-\newcommand{\learn}{$\diamondsuit$}
  
 \title[AIIT用beamerテンプレート]{AIIT用beamerテンプレート}
 \subtitle[タイプ0]{タイプ0}
 \author{上田隆一}
 \institute[産技大]{産業技術大学院大学}
 \date{\today}
+
+\ifnum 42146=\euc"A4A2 \AtBeginDvi{\special{pdf:tounicode EUC-UCS2}}\else
+\AtBeginDvi{\special{pdf:tounicode 90ms-RKSJ-UCS2}}\fi
 
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 \mathversion{bold} 
